@@ -1,0 +1,11 @@
+@import 'variables';
+
+h1 {
+    &.header {
+        color: $red-color;
+    }
+
+    &.footer {
+        color: $green-color;
+    }
+}
