@@ -1,0 +1,12 @@
+<form style="display: flex; align-items: center; flex-direction: column;" method="post" action="/search">
+  <div class="mb-3 mt-3 w-50">
+    <label for="exampleInputSearch1" class="form-label">Từ khóa: {{ renderSearchValue }}</label>
+    <input type="text" class="form-control" id="exampleInputSearch1" aria-describedby="searchHelp" placeholder="Nhập từ khóa..." name="q">
+    <select name="gender" id="gender-input" class="form-control mt-2">
+      <option value="">-- Chọn giới tính</option>
+      <option value="male">Nam</option>
+      <option value="female">Nữ</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+</form>
