@@ -1,6 +1,6 @@
-const searchRouter = require('./searchRouter')
-const homeRouter = require('./homeRouter')
-const newsRouter = require('./newsRouter')
+const searchRouter = require('./search')
+const homeRouter = require('./home')
+const newsRouter = require('./news')
 
 function routes(app) {
     app.use('/', homeRouter);
