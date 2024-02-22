@@ -7,10 +7,10 @@
         "start": "nodemon --inspect src",
         "watch": "node-sass -w src/resources/scss -o src/public/css",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "beautiful": "prettier src/**/*.{js,json,scss}"
+        "beautiful": "prettier src/**/*.{js,json,scss} --write"
     },
     "lint-staged": {
-        "src/**/*.{js,json,scss}": "prettier"
+        "src/**/*.{js,json,scss}": "prettier --write"
     },
     "repository": {
         "type": "git",

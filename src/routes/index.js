@@ -3,7 +3,7 @@ const homeRouter = require('./home')
 const newsRouter = require('./news')
 
 function routes(app) {
-    app.use('/', homeRouter);
+    app.use('/', homeRouter)
 
     app.use('/search', searchRouter)
 
